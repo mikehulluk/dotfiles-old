@@ -1,0 +1,10 @@
+[user]
+    name = Michael Hull
+    email = mikehulluk@gmail.com
+[core]
+    excludesfile = /home/michael/.gitignore_global
+
+[diff]
+    tool = meld
+[merge]
+    tool = meld
