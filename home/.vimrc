@@ -1,7 +1,13 @@
 
 
 
+call pathogen#infect()
+call pathogen#helptags()
 
+" Don't backup or swap files
+set nobackup
+set nowritebackup
+set noswapfile
 
 "" .vimrc for Mike Hull
 "set nocompatible              " Don't be compatible with vi
@@ -16,8 +22,6 @@
 "
 "" Pathogen configuration for handling plugins:
 "filetype off
-"call pathogen#runtime_append_all_bundles()
-"call pathogen#helptags()
 "
 "
 "
@@ -227,10 +231,6 @@
 "
 "set colorcolumn=79
 "
-"" Don't backup or swap files
-"set nobackup
-"set nowritebackup
-"set noswapfile
 "
 "
 "set history=1000         " remember more commands and search history
