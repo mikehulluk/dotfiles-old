@@ -1,13 +1,41 @@
 
 
-
+" Setup pathogen:
+set nocompatible
+filetype off
 call pathogen#infect()
 call pathogen#helptags()
+
+
 
 " Don't backup or swap files
 set nobackup
 set nowritebackup
 set noswapfile
+
+
+
+" Basic per-file settings:
+syntax on
+filetype on
+filetype plugin indent on
+
+
+
+
+" Tab-expansion:
+set expandtab
+set textwidth=79
+set tabstop=8
+set softtabstop=4
+set shiftwidth=4
+set autoindent
+
+
+
+" Use the vivid-chalk plugin
+colorscheme vividchalk
+
 
 "" .vimrc for Mike Hull
 "set nocompatible              " Don't be compatible with vi
@@ -16,23 +44,17 @@ set noswapfile
 "
 "
 "
-"" Enable show marks
-""let g:showmarks_enable=1
-"
-"
-"" Pathogen configuration for handling plugins:
-"filetype off
 "
 "
 "
 "" Key configuration:
 """""""""""""""""""""""""
 "
-"" Allow Ctrl-<dir> to shift between splits:
-"map <c-j> <c-w>j
-"map <c-k> <c-w>k
-"map <c-l> <c-w>l
-"map <c-h> <c-w>h
+" Allow Ctrl-<dir> to shift between splits:
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+map <c-l> <c-w>l
+map <c-h> <c-w>h
 "" and lets make these all work in insert mode too ( <C-O> makes next cmd
 ""  happen as if in command mode )
 "imap <C-W> <C-O><C-W>
@@ -125,24 +147,8 @@ set noswapfile
 "
 "
 "
-"" Python configuration:
-"syntax on                       " syntax highlighing
-"filetype on                     " try to detect filetypes
-"filetype plugin indent on    	" enable loading indent file for filetype
-"
-"
-"" Tab-expansion:
-"set expandtab
-"set textwidth=79
-"set tabstop=8
-"set softtabstop=4
-"set shiftwidth=4
-"set autoindent
-"
-"
-"
-"" Use the vivid-chalk plugin
-""colorscheme vividchalk
+
+
 "
 "
 "
