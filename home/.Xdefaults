@@ -1,0 +1,79 @@
+URxvt*background: Black
+URxvt*foreground: White
+URxvt*geometry: 80x30
+URxvt*scrollBar: true
+
+#"URxvt.font: 9x15
+
+!-- Xft settings -- !
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgba
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+
+
+
+URxvt*scrollTtyKeypress:  true
+URxvt*scrollTtyOutput:  false
+URxvt*scrollWithBuffer:  false
+URxvt*fading:  30
+URxvt*saveLines:  65000
+URxvt*scrollBar_right:true
+URxvt*transpscrollbar:true
+URxvt*shading:40
+
+
+
+
+
+
+
+
+
+! -- Fonts -- !
+# URxvt.font:xft:Monospace:pixelsize=15
+# URxvt.boldfont:xft:Monospace-Bold:pixelsize=15
+! Using Xft
+
+#URxvt*font:           xft:Inconsolata:size=10:antialias=true:hinting=slight
+#URxvt*font:               xft:Inconsolata:style=Semibold:pixelsize=14:antialias=true:hinting=slight
+#URxvt*boldFont:           xft:Inconsolata:style=bold:pixelsize=14:antialias=true:hinting=slight
+#URxvt.font: -*-terminus-medium-*-*-*-*-140-*-*-*-*-iso8859-1
+
+#urxvt*font: xft:Terminus:size=10
+#urxvt*boldFont: xft:Terminus:style=bold
+
+URxvt.font:     xft:bitstream vera sans mono:size=9:antialias=true
+URxvt.boldFont: xft:bitstream vera sans mono:bold:size=9:antialias=true
+
+URxvt.letterSpace: -2
+
+
+*foreground: #bfa876
+*background: #2b1b10
+
+!Black
+URxvt*color0:         #2D2D2D
+URxvt*color8:         #3D3D3D
+!Red
+URxvt*color1:         #98422B
+URxvt*color9:         #B6310E
+!Green
+URxvt*color2:         #5D8A45
+URxvt*color10:        #569E30
+!Yellow
+URxvt*color3:         #98782B
+URxvt*color11:        #B6850E
+!Blue
+URxvt*color4:         #2F568B
+URxvt*color12:        #1C539D
+!Magenta
+URxvt*color5:         #892898
+URxvt*color13:        #A10EB6
+!Cyan
+URxvt*color6:         #2A9878
+URxvt*color14:        #0EB685
+!White
+URxvt*color7:         #B2B2B2
+URxvt*color15:        #FFFFFF

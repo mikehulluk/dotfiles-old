@@ -23,7 +23,16 @@ fi
 
 
 
-PATH="$PATH:/home/michael/.gem/ruby/1.9.1/bin"
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='gvim'
+fi
+
+
+
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/michael/.gem/ruby/1.9.1/bin"
+export PATH="$PATH:/home/michael/.gem/ruby/1.9.1/bin"
 
 
 alias hs="homesick"

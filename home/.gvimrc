@@ -1,2 +1,4 @@
-set guifont=Inconsolata\ 8
-
+set guifont=Inconsolata\ 9
+ou
+" Remove toolbar:
+set guioptions-=T

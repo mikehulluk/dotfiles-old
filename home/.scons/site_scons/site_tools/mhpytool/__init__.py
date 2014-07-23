@@ -7,8 +7,15 @@ import SCons.Builder
 import SCons.Scanner
 
 
-from mreorg.utils import switch_into_working_directory
-from mreorg.doctools import PyFileScons
+try:
+    from mreorg.doctools import PyFileScons
+except ImportError:
+    print 'Unable to import mreorg.doctools'
+
+try:
+    from mreorg.utils import switch_into_working_directory
+except ImportError:
+    print 'Unable to import mreorg.utils'
 
 
 
